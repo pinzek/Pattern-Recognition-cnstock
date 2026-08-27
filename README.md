@@ -397,7 +397,7 @@ Future extensions include:
 
 ## Author / 作者
 
-| Name / 姓名 | Role / 角色 |
+| Name / 姓名 | Contribution / 贡献 |
 |---|---|
 | **Runtian Zhou / 周润天** | Project Contributor / 项目贡献者 |
 | **Ziliang Shen / 沈梓梁** | Research Mentor; Quant Researcher, Turing Private Fund / 研究指导；图灵私募基金量化研究员 |
@@ -406,18 +406,22 @@ Future extensions include:
 
 ## Acknowledgements / 致谢
 
-Data access and research support for this project were provided by **Turing Private Fund Management (Hainan)**. The A-share market data used in this research were organized and supported by Turing; raw market data, licensed datasets, large cache files, and intermediate parquet files are proprietary and are not included in this repository.
+Data access and research support for this project were provided by **Turing Private Fund Management Co., Ltd.**. The A-share market data used in this research were organized and supported by Turing; raw market data, licensed datasets, large cache files, and intermediate parquet files are proprietary and are not included in this repository.
 
 Special thanks are due to **Mr. Ziliang Shen**, Quant Researcher at **Turing Private Fund**, for his guidance throughout this research project. His suggestions on quantitative research workflow, information leakage control, model evaluation, walk-forward validation, portfolio diagnostics, Git-based collaboration, and project presentation helped shape this project from a notebook-style experiment into a more structured and reproducible research repository.
 
-本项目的数据获取与研究支持由**图灵私募基金管理（海南）**提供。本研究所使用的 A 股市场数据由图灵整理和支持；原始行情数据、授权数据集、大型缓存文件和中间 parquet 文件属于专有数据，不包含在本仓库中。
+本项目的数据获取与研究支持由**图灵私募基金管理有限公司**提供。本研究所使用的 A 股市场数据由图灵整理和支持；原始行情数据、授权数据集、大型缓存文件和中间 parquet 文件属于专有数据，不包含在本仓库中。
 
 特别感谢**图灵私募基金量化研究员沈梓梁老师**在本项目中的指导。从量化研究流程、信息泄漏控制、模型评估、walk-forward 样本外验证、组合诊断、Git 协作到项目展示，沈老师都给出了非常具体和系统的建议，帮助本项目从 notebook 形式的实验逐步整理成结构更清晰、结果更可复现的研究型 GitHub 项目。
 
 ---
 
-## License / 许可证
+## License / 许可
 
-This repository is intended for research and educational use. Please confirm data and code licensing before public redistribution.
+Released under the [MIT License](LICENSE). Copyright © 2026 Runtian Zhou.
 
-本仓库用于研究与学习展示。公开传播前请确认数据与代码授权。
+基于 [MIT 许可证](LICENSE) 发布。
+
+*Prioritizing reproducible research, leakage-aware validation, and robust portfolio-level evaluation over headline performance metrics.*
+
+*优先关注可复现研究、信息泄漏控制下的验证流程，以及稳健的组合层评估，而非表面化的绩效指标。*
