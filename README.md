@@ -397,24 +397,20 @@ Future extensions include:
 
 ## Author / 作者
 
-**Runtian Zhou / 周润天**
-Quant Research Intern / 量化研究实习生
+**Runtian Zhou / 周润天**  
+Project Contributor / 项目贡献者  
 
-**Advisor / 指导老师**
-**Ziliang Shen / 沈梓梁**
-Turing Private Fund / 图灵私募基金
+**Research Mentor / 研究指导**  
+**Ziliang Shen / 沈梓梁**  
+Quant Researcher, Turing Private Fund / 图灵私募基金量化研究员
 
 ---
 
 ## Acknowledgements / 致谢
 
-I would like to express my sincere gratitude to **Mr. Ziliang Shen** from **Turing Private Fund** for his guidance throughout this research project. His suggestions on quantitative research workflow, information leakage control, model evaluation, Git-based collaboration, and project presentation helped shape this project from a notebook-style experiment into a more structured and reproducible research repository.
+I would like to express my sincere gratitude to **Mr. Ziliang Shen**, Quant Researcher at **Turing Private Fund**, for his guidance throughout this research project. His suggestions on quantitative research workflow, information leakage control, model evaluation, walk-forward validation, portfolio diagnostics, Git-based collaboration, and project presentation helped shape this project from a notebook-style experiment into a more structured and reproducible research repository.
 
-I also appreciate the opportunity to work on a realistic A-share quantitative research problem. This project helped me better understand the complete research loop of data processing, feature construction, model training, walk-forward evaluation, portfolio diagnostics, result interpretation, documentation, and GitHub-based collaboration.
-
-衷心感谢**图灵私募基金沈梓梁老师**在本项目中的指导。从量化研究流程、信息泄漏控制、模型评估、Git 协作到项目展示，沈老师都给出了非常具体和系统的建议，帮助我将原本 notebook 形式的实验逐步整理成结构更清晰、结果更可复现的研究型 GitHub 项目。
-
-同时，也感谢本次实习和研究经历让我接触到真实的 A 股量化研究问题。通过这个项目，我对数据处理、特征构造、模型训练、walk-forward 样本外验证、组合诊断、结果解释、文档整理和 GitHub 协作有了更完整的理解。
+衷心感谢**图灵私募基金量化研究员沈梓梁老师**在本项目中的指导。从量化研究流程、信息泄漏控制、模型评估、walk-forward 样本外验证、组合诊断、Git 协作到项目展示，沈老师都给出了非常具体和系统的建议，帮助我将原本 notebook 形式的实验逐步整理成结构更清晰、结果更可复现的研究型 GitHub 项目。
 
 ---
 
