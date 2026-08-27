@@ -1,6 +1,6 @@
 # Pattern-Recognition-cnstock
 
-![License](https://img.shields.io/badge/license-research%20only-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Model](https://img.shields.io/badge/model-Transformer%20Encoder-red)
 ![Status](https://img.shields.io/badge/status-research-orange)
