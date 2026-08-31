@@ -299,8 +299,8 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 │   ├── transformer_1d_nav.png
 │   └── transformer_1d_rank_ic.png
 ├── reports/
-│   ├── transformer_1d_summary.md
-│   └── Turing_AI.pdf
+│   ├── v5_transformer_baseline_summary.md
+│   └── a_share_return_prediction_report.pdf
 └── experiments/
     ├── README.md
     ├── v1_hmm_market_state/
@@ -425,8 +425,8 @@ Future extensions include:
 
 ## Reports / 报告
 
-* `reports/transformer_1d_summary.md`: concise experiment summary
-* `reports/Turing_AI.pdf`: project report
+* `reports/v5_transformer_baseline_summary.md`: concise experiment summary
+* `reports/a_share_return_prediction_report.pdf`: project report
 
 ---
 

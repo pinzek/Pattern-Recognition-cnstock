@@ -41,7 +41,7 @@ The full prediction parquet files, window audit parquet files, and large interme
 Included repository outputs:
 
 - Notebook: `notebooks/v5_transformer_baseline.ipynb`
-- Summary: `reports/transformer_1d_summary.md`
+- Summary: `reports/v5_transformer_baseline_summary.md`
 - Group return figure: `figures/transformer_1d_group_returns.png`
 - Loss curves: `figures/transformer_1d_loss_curves.png`
 - Long-short NAV figure: `figures/transformer_1d_nav.png`
