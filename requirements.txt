@@ -8,3 +8,5 @@ jupyter>=1.0
 notebook>=7.0
 tqdm>=4.65
 hmmlearn>=0.3
+pyarrow>=14.0
+ipykernel>=6.0

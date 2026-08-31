@@ -34,3 +34,16 @@ state_recognition_output/
 
 # Keep notebooks/reports/figures, but avoid raw tabular data
 .Rhistory
+
+# Environment and local config
+.venv/
+.env
+.env.*
+
+# Model checkpoints and logs
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.log
+*.html
