@@ -292,7 +292,7 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 │   ├── metrics.py
 │   └── transformer_baseline.py
 ├── notebooks/
-│   └── 09_stage2_transformer_v5_notebook.ipynb
+│   └── v5_transformer_baseline.ipynb
 ├── figures/
 │   ├── transformer_1d_group_returns.png
 │   ├── transformer_1d_loss_curves.png
@@ -378,7 +378,7 @@ pip install -r requirements.txt
 Open the notebook:
 
 ```bash
-jupyter notebook notebooks/09_stage2_transformer_v5_notebook.ipynb
+jupyter notebook notebooks/v5_transformer_baseline.ipynb
 ```
 
 Note: raw market data and large cache files are not included. To fully reproduce the experiment, users need to prepare the original A-share daily panel and label files under the expected local data path.

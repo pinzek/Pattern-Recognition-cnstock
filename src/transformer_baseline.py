@@ -6,7 +6,7 @@ for the V5 Transformer baseline experiment. The complete experimental workflow,
 including data loading, walk-forward training, evaluation, and visualization, is
 documented in:
 
-    notebooks/09_stage2_transformer_v5_notebook.ipynb
+    notebooks/v5_transformer_baseline.ipynb
 
 Raw market data and large intermediate files are not included in this repository.
 Users should provide their own local data path through the A_SHARE_DAILY_DIR
