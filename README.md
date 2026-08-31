@@ -102,9 +102,9 @@ V5 Transformer baseline 使用每只股票过去 20 个交易观测作为历史�
 ### 2. Transformer improves over previous nonlinear baselines
 
 #### Transformer 优于原有普通非线性模型
-Compared with Kernel Ridge and a two-layer MLP, the Transformer sequence model shows stronger portfolio-level performance. This suggests that sequence modeling and attention mechanisms can extract useful information from historical price-volume paths.
+Compared with Kernel Ridge and a two-layer MLP, the Transformer sequence model achieves stronger net long-short return and Sharpe ratio, although drawdown remains an important constraint. This suggests that sequence modeling and attention mechanisms can extract useful information from historical price-volume paths.
 
-相较于 Kernel Ridge 和两层全连接 MLP，Transformer 序列模型在组合端表现上有明显提升。这说明历史量价路径中的时序结构具有一定预测价值，Transformer 比普通 MLP 更适合处理这类序列信息。
+相较于 Kernel Ridge 和两层全连接 MLP，Transformer 序列模型在扣费后多空收益和 Sharpe 上表现更强，但最大回撤仍然是需要继续优化的约束。这说明历史量价路径中的时序结构具有一定预测价值，Transformer 比普通 MLP 更适合处理这类序列信息。
 
 | Model / 模型           | IC / Rank IC |     ICIR | Net Long-Short Annual Return / 多空净年化 |   Sharpe | Max Drawdown / 最大回撤 |
 | -------------------- | -----------: | -------: | -----------------------------------: | -------: | ------------------: |
