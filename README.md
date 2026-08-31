@@ -290,6 +290,9 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 ├── .gitignore
 ├── requirements.txt
 ├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── metrics.py
 │   └── transformer_baseline.py
 ├── notebooks/
 │   └── 09_stage2_transformer_v5_notebook.ipynb
@@ -326,7 +329,7 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 | `README.md` | Main bilingual project documentation and experiment summary. |
 | `LICENSE` | MIT License file for the repository code and documentation. |
 | `requirements.txt` | Python package requirements for running the notebook. |
-| `src/` | Reusable Python source code for the V5 Transformer baseline model and path configuration. |
+| `src/` | Reusable Python source code, including configuration, evaluation metrics, and the Transformer baseline model. |
 | `notebooks/` | Main V5 Transformer notebook. |
 | `figures/` | V5 Transformer result figures, including group returns, training loss, long-short NAV, and Daily Rank IC. |
 | `reports/` | V5 experiment summary and project report. |
