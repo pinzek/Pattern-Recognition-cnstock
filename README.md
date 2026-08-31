@@ -61,6 +61,10 @@ This repository represents the latest stage of a continuous research process. V1
 | V4      | Explored multi-scale Transformer and HMM-informed Transformer with 5/20/60-day windows                                                        | 尝试多尺度 Transformer 与 HMM-informed Transformer             |
 | V5      | Integrated a Transformer sequence baseline into the stricter V2-style evaluation framework                                                    | 在更严格的 V2 因果评估框架中加入 Transformer 序列模型                      |
 
+The archived materials for V1--V4 are organized under the `experiments/` folder. Raw market data, licensed datasets, cache files, and large intermediate outputs are excluded from this repository.
+
+V1--V4 的归档材料已整理在 `experiments/` 文件夹中。原始行情数据、授权数据集、缓存文件和大型中间结果均未包含在本仓库中。
+
 ---
 
 ## Key Findings / 核心结果
@@ -282,7 +286,9 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 ```text
 .
 ├── README.md
+├── LICENSE
 ├── .gitignore
+├── requirements.txt
 ├── notebooks/
 │   └── 09_stage2_transformer_v5_notebook.ipynb
 ├── figures/
@@ -290,17 +296,43 @@ Daily Rank IC is noisy, but the rolling mean is mostly around or above zero, ind
 │   ├── transformer_1d_loss_curves.png
 │   ├── transformer_1d_nav.png
 │   └── transformer_1d_rank_ic.png
-└── reports/
-    ├── transformer_1d_summary.md
-    └── Turing_AI.pdf
+├── reports/
+│   ├── transformer_1d_summary.md
+│   └── Turing_AI.pdf
+└── experiments/
+    ├── README.md
+    ├── v1_hmm_market_state/
+    │   ├── notebooks/
+    │   ├── figures/
+    │   └── reports/
+    ├── v2_supervised_prediction/
+    │   ├── notebooks/
+    │   ├── figures/
+    │   └── reports/
+    ├── v3_hmm_state_prediction/
+    │   ├── notebooks/
+    │   ├── figures/
+    │   └── reports/
+    └── v4_hmm_informed_transformer/
+        ├── notebooks/
+        ├── figures/
+        └── reports/
 ```
 
-| Path / 路径    | Description / 说明                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------- |
-| `notebooks/` | Main Jupyter Notebook for the V5 Transformer experiment                                     |
-| `figures/`   | Training curves, Rank IC plots, group returns, and long-short NAV                           |
-| `reports/`   | Experiment summary and project report                                                       |
-| `.gitignore` | Prevents raw data, cache files, zip files, and large intermediate files from being uploaded |
+| Path / 路径 | Description / 说明 |
+|---|---|
+| `README.md` | Main bilingual project documentation and experiment summary. |
+| `LICENSE` | MIT License file for the repository code and documentation. |
+| `requirements.txt` | Python package requirements for running the notebook. |
+| `notebooks/` | Main V5 Transformer notebook. |
+| `figures/` | V5 Transformer result figures, including group returns, training loss, long-short NAV, and Daily Rank IC. |
+| `reports/` | V5 experiment summary and project report. |
+| `experiments/` | Archived V1--V4 experiment materials, including notebooks, figures, reports, and high-level summaries. |
+| `experiments/v1_hmm_market_state/` | V1 HMM market state recognition experiment. |
+| `experiments/v2_supervised_prediction/` | V2 supervised stock return prediction and traditional machine learning experiments. |
+| `experiments/v3_hmm_state_prediction/` | V3 HMM state feature and supervised prediction experiments. |
+| `experiments/v4_hmm_informed_transformer/` | V4 multi-scale Transformer and HMM-informed Transformer experiments. |
+| `.gitignore` | Prevents raw data, cache files, zip files, large intermediate files, and local history files from being uploaded. |
 
 ---
 
