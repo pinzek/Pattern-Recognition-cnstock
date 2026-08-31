@@ -71,8 +71,7 @@ V1--V4 的归档材料已整理在 `experiments/` 文件夹中。原始行情数
 
 ### 1. Transformer shows positive out-of-sample predictive power
 
-### 1. Transformer 具有正向样本外预测能力
-
+#### Transformer 具有正向样本外预测能力
 The V5 Transformer baseline uses a 20-observation historical sequence for each stock and predicts next-day stock returns under a walk-forward evaluation framework.
 
 V5 Transformer baseline 使用每只股票过去 20 个交易观测作为历史序列输入，在 walk-forward 框架下预测下一交易日收益。
@@ -102,8 +101,7 @@ V5 Transformer baseline 使用每只股票过去 20 个交易观测作为历史�
 
 ### 2. Transformer improves over previous nonlinear baselines
 
-### 2. Transformer 优于原有普通非线性模型
-
+#### Transformer 优于原有普通非线性模型
 Compared with Kernel Ridge and a two-layer MLP, the Transformer sequence model shows stronger portfolio-level performance. This suggests that sequence modeling and attention mechanisms can extract useful information from historical price-volume paths.
 
 相较于 Kernel Ridge 和两层全连接 MLP，Transformer 序列模型在组合端表现上有明显提升。这说明历史量价路径中的时序结构具有一定预测价值，Transformer 比普通 MLP 更适合处理这类序列信息。
@@ -119,8 +117,7 @@ Compared with Kernel Ridge and a two-layer MLP, the Transformer sequence model s
 
 ### 3. Conclusion
 
-### 3. 结论
-
+#### 结论
 The Transformer baseline achieves positive out-of-sample Rank IC and long-short portfolio return. It improves over the previous nonlinear baselines, including Kernel Ridge and the two-layer MLP. This indicates that sequence modeling and Multi-Head Attention can extract useful information from historical price-volume paths.
 
 At the current stage, the Transformer baseline still does not outperform the strongest Ridge linear baseline. The result suggests that Transformer has meaningful modeling value, but further improvements are needed to fully convert its sequence-modeling capacity into stronger out-of-sample portfolio performance.
